@@ -1,0 +1,18 @@
+.center {
+  width: 80%;
+  margin: auto;
+}
+
+.dropdown-item.active:hover {
+  color: #359AD3;
+  background-color: #fff;
+}
+
+.dropdown-item.active {
+  color: #fff;
+  background-color: #359AD3;
+}
+
+.dropdown-item {
+  color: #fff;
+}

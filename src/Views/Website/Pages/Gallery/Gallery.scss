@@ -1,0 +1,46 @@
+#Gallery {
+
+    .title {
+        background-color: #004E79;
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 3vh;
+
+        h3 {
+            color: #fff;
+        }
+    }
+
+    .imagebox {
+        min-height: 50vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 1.5em;
+
+        // align-items: center;
+        .full-image {
+            display: flex;
+            justify-content: center;
+            margin: 2vh 0;
+
+        }
+
+        .image {
+            margin: 2px 0;
+        }
+    }
+
+    .card-title {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .card-img-top {
+        width: 15vw;
+    }
+}

@@ -1,0 +1,104 @@
+#topnav {
+    // background-color: red;
+
+    .clock {
+        background-color: #68b3df;
+        margin-bottom: 1px;
+        color: #fff;
+    }
+
+    .logo-container {
+        display: flex;
+        justify-content: flex-end;
+        padding: 10px;
+    }
+
+    .navigation {
+
+
+        .navbar {
+            background-color: #359AD3 !important;
+
+            padding: 0;
+
+            .nav-link {
+                padding: 0.25em 4em 0.25em 0;
+
+
+            }
+
+
+
+        }
+
+        .dropdown-menu {
+            background-color: #359AD3 !important;
+        }
+
+        .dropdown-item {
+            color: #fff;
+        }
+
+        .dropdown-item:hover {
+            color: #359AD3;
+        }
+
+        .dropdown-item.active {
+            background-color: transparent;
+            color: #fff;
+        }
+
+        .dropdown-item.active:hover {
+            background-color: #fff;
+            color: #359AD3;
+        }
+
+
+        .dropdown-item:active {
+            background-color: transparent;
+            color: #fff;
+        }
+    }
+
+    .navbar-nav {
+        a {
+            font-size: 1.1em;
+        }
+    }
+
+    .changing-color {
+        animation: myanimation 10s infinite;
+    }
+
+    @keyframes myanimation {
+        0% {
+            background-color: red;
+        }
+
+        25% {
+            background-color: yellow;
+        }
+
+        50% {
+            background-color: green;
+        }
+
+        75% {
+            background-color: brown;
+        }
+
+        100% {
+            background-color: red;
+        }
+    }
+
+
+}
+
+#topnav .navigation .navbar .nav-link {
+    color: #fff;
+}
+
+#topnav .navigation .navbar .nav-link:hover {
+    color: #e2e2e2;
+}

@@ -1,0 +1,40 @@
+#login{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(250, 239, 177);
+    
+    .loginform{
+        padding: 2%;
+        background-color: rgb(204, 206, 204);
+        display: block;
+        margin: auto;
+        width: 70%;
+        height: 70%;
+        max-width: 400px;
+        h3{
+            text-align: center;
+        }
+        span{
+            display: block;
+            text-align: center;
+        }
+        .userpass{
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+        
+    }
+    .form-group {
+        display: block;
+        .col-sm-8 {
+            max-width: 100%;
+        }
+    }
+    form {
+        width: 100%;
+        margin: 10%;
+    }
+}

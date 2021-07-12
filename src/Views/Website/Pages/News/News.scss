@@ -1,0 +1,31 @@
+#news {
+    .title {
+        background-color: #004E79;
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+
+        h3 {
+            color: #fff;
+        }
+    }
+
+    .figure {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        img {
+            margin-right: 1em;
+        }
+
+    }
+
+    .news-box {
+        background-color: #f7f7f7;
+        padding: 2em;
+    }
+}

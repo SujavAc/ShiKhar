@@ -1,0 +1,60 @@
+#home {
+
+  .body {
+    margin: 10px 0;
+  }
+
+  .contact-map {
+    background-color: #FAFAFA;
+    padding: 4vh 0;
+
+    .map-contact {
+      display: flex;
+      flex-direction: row;
+
+      .map,
+      .contactus {
+        flex: 1;
+
+        h3 {
+          margin: 0 0 1.5vw 0;
+        }
+      }
+
+      .map {}
+
+
+    }
+  }
+
+
+
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  #home {
+
+
+
+    .contact-map {
+
+
+      .map-contact {
+        flex-direction: column;
+
+
+
+
+
+
+      }
+    }
+
+
+
+
+  }
+
+}

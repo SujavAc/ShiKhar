@@ -1,0 +1,53 @@
+#lowerbk {
+
+    .title {
+        background-color: #004E79;
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 3vh;
+
+        h3 {
+            color: #fff;
+        }
+
+        p {
+            color: #bdbdbd;
+        }
+    }
+
+    .description {
+        padding: 0 2em;
+        // min-height: 50vh;
+    }
+
+    .imagebox {
+        min-height: 50vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 1.5em;
+
+        // align-items: center;
+        .full-image {
+            display: flex;
+            justify-content: center;
+            margin: 2vh 0;
+
+        }
+    }
+
+    .tablesubtitle {
+        font-style: italic;
+        font-weight: 500;
+        margin: 0;
+
+    }
+
+    td {
+        width: 24vw;
+    }
+
+}
